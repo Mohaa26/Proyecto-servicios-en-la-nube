@@ -1,3 +1,4 @@
-document.getElementById("btn").addEventListener("click", function () {
-  alert("La web funciona correctamente en la nube 🚀");
+document.getElementById("btnTest").addEventListener("click", function () {
+  document.getElementById("resultado").textContent =
+    "Aplicación desplegada correctamente en la nube mediante Vercel.";
 });
